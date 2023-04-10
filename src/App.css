@@ -1,0 +1,25 @@
+.player-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.player-container > .player-card {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.player-container > .player-card img {
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  padding: 20px 10px;
+  gap: 20px;
+}
